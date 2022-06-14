@@ -1,0 +1,102 @@
+body {
+    color:black;
+    margin: 20px, 0px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#navbar {
+    display: flex;
+    justify-content: flex-start;
+    margin: 0px;
+    padding: 10px;
+    background-color: rgb(208, 255, 211);
+    font-weight: bold;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.textbox {
+    margin: 5px 22px;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 200px;
+    padding-top: 50px;
+}
+
+.text {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.name {
+    font-size: 70px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.pic {
+    border: black;
+    width: 300px;
+    height: 300px;
+    border-width: 5px;
+    background-color: rgb(224, 224, 224);
+    margin-top: 40px;
+    margin-right: 100px;
+}
+
+#bio {
+    margin-top: 50px;
+    background-color: rgb(208, 255, 211);
+    padding: 20px 200px;
+}
+
+#bio a {
+    display: block;
+    margin-bottom: 8px;
+}
+
+#portfolio {
+    padding: 10px 200px;
+}
+
+.portfolio_objects {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.outter_box {
+    background-color: rgb(224, 224, 224);
+    padding: 20px;
+    margin: 40px;
+    width: 280px;
+    height: 400px;
+    max-width: 500px;
+    max-height: 1000px;
+}
+
+.project_type {
+    font-style: italic;
+}
+
+.outter_box:hover {
+    background-color: rgb(208, 255, 211);
+}
+
